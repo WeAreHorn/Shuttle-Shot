@@ -148,7 +148,7 @@ function extralife() {
   }
 }
 function Endgame() {
-  var retryText = ["Give it a go!", "1 more time?", "ANOTHER ONE!", "Keep it up.", "So close yet..", "Almost had it", "Watch your shot?"];
+  var retryText = ["Give it a go!", "1 more time?", "ANOTHER ONE!", "Keep it up.", "So close yet..", "Almost had it", "Watch your shot?", "01101000 01101111 01110111 00111111"];
   if (Lives<=0) {
     setScreen("endGame");
     if (Points>=Highscore) {
